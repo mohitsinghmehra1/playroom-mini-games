@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic. Tac. Toe</title>
+    <link rel="icon" type="images/png" href="/images/images.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel ="stylesheet" href = "style/game1.css">
+    <link rel ="stylesheet" href = "mediaquery/game1.css">
+</head>
+</head>
+<body>
+    
+    <main class = "main-game-section">
+
+        <div class = "hero-section">
+
+            <h1>Tic. Tac. Toe.</h1>
+            <p>A little rivalry. A lot of fun.</p>
+
+            <div class = "result-status">
+
+                <div class = "result win">
+                    <p class = "win-name"><span class = "zero-color symbol-size">O</span>Player 1</p>
+                    <p class = "nwin">O</p>
+                </div>
+
+                <div class = "result draw">
+                    <p class = "draw-text">Draws</p>
+                    <p class = "ndraw">O</p>
+                </div>
+
+                <div class = "result loss">
+                    <p class = loss-name><span class = "cross-color symbol-size">X</span> Player 2</p>
+                    <p class = "nloss">O</p>
+                </div>
+                
+            </div>
+
+            <button class = "btn">
+                <img src = "images/undo.png">
+                Restart Round
+            </button>
+
+            <button class = "btn color-btn">
+                <img src = "images/undo.png">
+                Restart Game
+            </button>
+
+        </div>
+
+        <div class = "game-container">
+
+            <div class = "game-status">
+                <p class = "player-status"><span class = "zero-color symbol-size">O</span> <span>Your turn, Player 1</span></p>
+                <p class = "round-status">Round 1</p>
+            </div>
+
+            <div class = "button-container">
+                <button id = '0' class = "game-inp-play"></button>
+                <button id = '1' class = "game-inp-play"></button>
+                <button id = '2' class = "game-inp-play"></button>
+                <button id = '3' class = "game-inp-play"></button>
+                <button id = '4' class = "game-inp-play"></button>
+                <button id = '5' class = "game-inp-play"></button>
+                <button id = '6' class = "game-inp-play"></button>
+                <button id = '7' class = "game-inp-play"></button>
+                <button id = '8' class = "game-inp-play"></button>
+            </div>
+
+            <p class = "small-text">Pick an empty square. Make your move.</p>
+
+        </div>
+
+    </main>
+
+    <div class = "win-window">
+        <button class = "close">X</button>
+        <div class = 'win-window-status'>
+            <h2>Congratulation</h2>
+            <p class = "winner-player"></p>
+        </div>
+    </div>
+
+    <script src = "game1.js"></script>
+
+</body>
+</html>
