@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissior</title>
+    <link rel="icon" type="images/png" href="images/images-Photoroom.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel = "stylesheet" href = "style/game2.css">
+    <link rel = "stylesheet" href = "mediaquery/game2.css">
+</head>
+<body>
+    
+    <div class = "main-container">
+        
+        <header class = "header">
+            <h1>Rock. Paper. Scissior.</h1>
+        </header>
+
+        <main class = "main-page-section">
+
+            <div class = "game-play-container">
+
+                <div class = "display-container">
+
+                    <h2 class = "display-result"></h2>
+                    <div class = "display"></div>
+
+                </div>
+
+                <div class = "play-container">
+
+                    <p class = "small-text">YOUR MOVE</p>
+
+                    <div class = "user-choice-container">
+
+                        <button class = "choice-btn">
+                            <img src = "/images/Rock.png">
+                            Rock
+                        </button>
+
+                        <button class = "choice-btn">
+                            <img src = "/images/Paper.png">
+                            Paper
+                        </button>
+
+                        <button class = "choice-btn">
+                            <img src = "/images/Scissior.png">
+                            Scissior
+                        </button>
+
+                    </div>
+
+                    <button class = "next-btn">Next Round</button>
+
+                </div>
+
+            </div>
+
+            <div class = "result-container">
+
+                <p class = "small-text">THE SCORE</p>
+
+                <div class = "result-wrapper">
+                    
+                    <div class = "result">
+                        <p class = "player1">You</p>
+                        <p class = "count">00</p>
+                    </div>
+
+                    <div class = "result">
+                        <p class = "player2">Computer</p>
+                        <p class = "count">00</p>
+                    </div>
+
+                </div>
+                
+                <div class = "reset-btn small-text">
+                    <img class = "small-image" src = 'images/undo.png'>
+                    <p>Reset match</p>
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src = "game2.js"></script>
+</body>
+</html>
