@@ -108,8 +108,3 @@ Just a modern web browser. To serve the files locally, you can use any simple st
 * [ ] Best-of-N match mode for Rock Paper Scissors
 * [ ] Sound effects and keyboard support
 * [ ] More games for the Playroom collection
-
----
-
-## License
-This project is open for personal and educational use. Add a license of your choice (e.g., MIT) before distributing.
